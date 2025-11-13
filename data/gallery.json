@@ -1,0 +1,100 @@
+[
+    {
+        "itemNumber": 1,
+        "large": "church.jpg",
+        "small": "church_small.jpg",
+        "alt": "church",
+        "dataTitle": "Church"
+    },
+    {
+        "itemNumber": 2,
+        "large": "ostrvica.jpg",
+        "small": "ostrvica_small.jpg",
+        "alt": "ostrvica",
+        "dataTitle": "Ostrvica"
+    },
+    {
+        "itemNumber": 3,
+        "large": "concert.jpg",
+        "small": "concert_small.jpg",
+        "alt": "concert",
+        "dataTitle": "Concert"
+    },
+    {
+        "itemNumber": 4,
+        "large": "swimming_pool.jpg",
+        "small": "swimming_pool_small.jpg",
+        "alt": "swimming_pool",
+        "dataTitle": "swimming_pool"
+    },
+    {
+        "itemNumber": 5,
+        "large": "mansion.jpg",
+        "small": "mansion_small.jpg",
+        "alt": "mansion",
+        "dataTitle": "Mansion"
+    },
+    {
+        "itemNumber": 6,
+        "large": "park.jpg",
+        "small": "park_small.jpg",
+        "alt": "park",
+        "dataTitle": "Park"
+    },
+    {
+        "itemNumber": 7,
+        "large": "norway_house.jpeg",
+        "small": "norway_house_small.jpeg",
+        "alt": "norway_house",
+        "dataTitle": "Norway_house"
+    },
+    {
+        "itemNumber": 8,
+        "large": "winter.jpg",
+        "small": "winter_small.jpg",
+        "alt": "winter",
+        "dataTitle": "Winter"
+    },
+    {
+        "itemNumber": 9,
+        "large": "gymnasium.jpg",
+        "small": "gymnasium_small.jpg",
+        "alt": "gymnasium",
+        "dataTitle": "Gymnasium"
+    },
+    {
+        "itemNumber": 10,
+        "large": "sports_hall.jpeg",
+        "small": "sports_hall_small.jpeg",
+        "alt": "sports_hall",
+        "dataTitle": "Sports_hall"
+    },
+    {
+        "itemNumber": 11,
+        "large": "monument_brdo-mira.jpg",
+        "small": "monument_brdo-mira_small.jpg",
+        "alt": "monument_brdo-mira",
+        "dataTitle": "Monument Brdo Mira"
+    },
+    {
+        "itemNumber": 12,
+        "large": "holywood.jpeg",
+        "small": "holywood_small.jpeg",
+        "alt": "holywood",
+        "dataTitle": "Holywood"
+    },
+    {
+        "itemNumber": 13,
+        "large": "stadion.jpg",
+        "small": "stadion_small.jpg",
+        "alt": "stadion",
+        "dataTitle": "Stadion"
+    },
+    {
+        "itemNumber": 14,
+        "large": "cultural_center.jpeg",
+        "small": "cultural_center_small.jpeg",
+        "alt": "cultural_center",
+        "dataTitle": "Cultural Center"
+    }
+]

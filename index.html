@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Gornji Milanovac</title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="author" content="Marko Gačanović" />
+    <meta name="description" content="Township Gornji Milanovac" />
+    <meta name="keywords" content="township, gornji milanovac, serbia, culture, sport, history, economy, area, industry, rudnik, takovo, population, hotel" />
+
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i|Nunito:300,300i" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous" />
+    <link rel="shortcut icon" type="image/png" href="images/favicon.ico" />
+
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css" />
+    
+    <link rel="stylesheet" href="css/jquery-ui.min.css" />
+    <link rel="stylesheet" href="css/lightbox.css" />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+</head>
+
+<body>
+    <!--MENU-->
+    <label for="mySidenav" id="sidenav__button" >
+        <span><i class="fas fa-bars"></i></span>
+    </label>
+
+    <div id="mySidenav" class="sidenav">
+        <ul>
+            <button class="far fa-times-circle closebtn" id="x" ></button>
+            <li class="sidenav__item"><a href="">Home</a></li>
+            <li class="sidenav__item"><a href="#section-gallery">Gallery</a></li>
+            <li class="sidenav__item"><a href="#section-book">Contact</a></li>
+            <li class="sidenav__item"><a href="#section-lodging">Our Lodging</a></li>
+            <li class="sidenav__item"><a href="#section-news">Our News</a></li>
+            <li class="dropdown-btn sidenav__item dropdown__item">
+                <a href="#">Documentation</a>
+                <i class="fa fa-caret-down"></i>
+            </li>
+            <ul class="dropdown-container">
+                <li class="sidenav__item"><a href="Dokument.pdf"  target="_blank">Documentation</a></li>
+                <li class="sidenav__item"><a href="#" class="details">Author</a></li>
+            </ul>
+        </ul>
+    </div>
+    <!--END OF MENU-->
+
+    <!--HEADER-->
+    <header class="header">
+        <div class="header__logo-box">
+            <a href="#"><img src="images/logo.png" class="header__logo" alt="logo" /></a>
+        </div>
+        <div class="header__text-box">
+            <h1 class="heading-primary">
+                <span class="heading-primary--main">Township</span>
+                <span class="heading-primary--second" id="slow-text"></span>
+            </h1>
+        </div>
+    </header>
+    <!--END OF HEADER-->
+
+    <!-- MAIN PART -->
+    <main>
+        <!--STATS-->
+        <section id="section-stats">
+            <div class="bg-video">
+                <video class="bg-video__content" autoplay muted loop>
+                    <source src="images/gm_air.mp4" type="video/mp4">
+                    <source src="images/gornji_milanovac_air.webm" type="video/webm">
+                    Your browser is not supported!
+                </video>
+            </div>
+            <div class="row stats">
+                
+            </div>
+        </section>
+        <!--END OF STATS-->
+
+        <!--LODGING-->
+        <div class="row no-gutter">
+            <div class="margins">
+                <h2 class="heading-secondary">Our Lodging For The Night</h2>
+                <div class="row" id="filtering">
+                    <div class="col-1-of-2">
+                        <form action="#" method="GET">
+                            <input type="text" id="partString" placeholder="Search for a hotel">
+                            <input type="submit" value="Search">
+                        </form>
+                        <form action="#" method="GET" id="formPrice">
+                            <label for="rnPrice">Price in range from 0 to <span id="priceSelect">0</span>:</label>
+                            <input type="range" id="rnPrice" value="0" min="0" max="15">
+                            <input type="button" value="Find" name="button" class="btn priceBtn">
+                        </form>
+                    </div>
+    
+                    <div class="col-1-of-2">
+                        <div id="sorting">
+                            <ul>
+                                <li><a href="#" id="sortNameAsc">Name A-Z</a></li>
+                                <li><a href="#" id="sortNameDesc">Name Z-A</a></li>
+                                <li><a href="#" id="sortPriceDesc">Price Desc</a></li>
+                                <li><a href="#" id="sortPriceAsc">Price Asc</a></li>
+                            </ul>
+                        </div>
+                    </div>                 
+                </div>
+            </div>
+        </div>
+
+        <section id="section-lodging">
+            
+        </section>
+        <!--END OF LODGING-->
+
+        <div class="row no-gutter">
+            <div class="margins-t">
+                <h2 class="heading-secondary">Our News</h2>
+            </div>
+        </div>
+
+        <!--NEWS-->
+        <section id="section-news">
+            <div id="shTabs">
+                <ul>
+                    <li><a href="#economy">Economy</a></li>
+                    <li><a href="#culture">Culture</a></li>
+                    <li><a href="#sports">Sports</a></li>
+                    <li><a href="#history">History</a></li>
+                    <li><a href="#" id="openDialog" title="Open Quote Box">Quotes</a></li>
+                </ul>
+                <div id="economy">
+                    <div class="accordion">
+                        <h4>Our Companies</h4>
+                        <div class="newsWrapper">
+                        </div>
+
+                        <h4>Agriculture</h4>
+                        <div class="newsWrapper">
+                        </div>
+
+                        <h4>Tourism</h4>
+                        <div class="newsWrapper">
+                        </div>
+                    </div>
+                </div>
+                <div id="culture">
+                    <div class="accordion">
+                        <h4>Cultural Center</h4>
+                        <div id="culturalCenter">
+                        </div>
+
+                        <h4>The Library &#8246;Braća Nastasijević&#x2036;</h4>
+                        <div id="library">
+                        </div>
+
+                        <h4>Museum of Mining-Takovo Region</h4>
+                        <div id="museum">
+                        </div>
+                    </div>
+                </div>
+                <div id="sports">
+                    <div class="accordion">
+                        <h4>FC &#8246;Metalac&#x2036;</h4>
+                        <div id="fc_metalac">
+                        </div>
+
+                        <h4>FC &#8246;Takovo&#x2036;</h4>
+                        <div id="fc_tacovo">
+                        </div>
+
+                        <h4>Sports Hall &#8246;Breza&#x2036;</h4>
+                        <div id="hall">
+                        </div>
+                    </div>
+                </div>
+                <div id="history">
+                    <div class="accordion">
+                        <h4>Famous Milanese</h4>
+                        <div>
+                            <ul id="bio_list">  
+                            </ul>
+                        </div>
+
+                        <h4>Serbian Revolution</h4>
+                        <div class="newsWrapper">  
+                        </div>
+                           
+                        <h4>XX Century</h4>
+                        <div class="newsWrapper">
+                        </div>  
+                    </div>
+                </div>
+                <div id="customDialog" title="Quote of the day">
+                    <p>
+                        Prince Miloš was in Crnuća, where a lot of people have gathered, he entered his workbook and got the most sophisticated suit, took the flag, walked out and said, <blockquote>"Here I am, you, the war to the Turks!"</blockquote>  
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!--END OF NEWS-->
+
+        <!--GALLERY-->
+        <div class="row no-gutter">
+            <div class="margins-t">
+                <h2 class="heading-secondary">Our Gallery</h2>
+            </div>
+        </div>
+
+        <div class="container">
+            <section id="section-gallery">
+               
+            </section>
+        </div>
+        <!--END OF GALLERY-->
+
+        <!--CONTACT FORM-->
+        <section id="section-book">
+            <div class="row">
+                <div class="book">
+                    <div class="book__form">
+                        <form action="#" class="form" method="POST">
+                            <h2 class="heading-secondary">
+                                Drop us a message
+                            </h2>
+
+                            <div class="form__group">
+                                <input type="text" class="cssBorder input" placeholder="Full name" name="name" id="tbName">
+                            </div>
+                            <div class="form__group">
+                                <input type="text" class="cssBorder input" placeholder="Email adress" name="email" id="tbEmail">
+                            </div>
+                            <div class="form__group">
+                                <strong>Gender:</strong>&nbsp;&nbsp;&nbsp;&nbsp;
+                                <input type="radio" name="gender" id="male" class="grGender" value="male">Male&nbsp;&nbsp;&nbsp;
+                                <input type="radio" name="gender" id="female" class="grGender" value="female">Female
+                            </div>
+                            <div class="form__group">
+                                <textarea name="messageName" id="message" class="cssBorder input" placeholder="Message"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <input type="button" id="send" class="btn btn--gold btn--animated" value="Send &rarr;" >
+                            </div>
+                        </form>
+                    </div>
+                    <div id="mistakes">
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--END OF CONTACT FORM-->
+    </main>
+    <!-- END OF MAIN PART -->
+
+
+    <!--FOOTER-->
+    <footer class="footer">
+        <div class="footer__logo-box">
+            <a href="#">
+                <img src="images/logo.png" alt="logoFooter" />
+            </a>
+        </div>
+
+        <div class="row">
+            <div class="col-1-of-2">
+                <div class="footer__navigation">
+                    <ul class="footer__list">
+                        
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-1-of-2">
+                <p class="footer__copyright">
+                    Built by <a href="#" class="footer__link details">Marko Gačanović</a> This site is a project for
+                    <a href="https://www.ict.edu.rs/" class="footer__link">ICT College</a>
+                    and made for educational  purposes.
+                    Copyright &copy; by Marko. I don't intend to profit. All rights go to their rightful
+                    owners.
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!--END OF FOOTER-->
+
+    <!--AUTHOR MODAL-->
+    <div class="author-modal">
+        <span id="close">&times;</span>
+        <div class="modal-col">
+            <div id="description">
+                <p>
+                    My name is Marko Gačanović. I was born in Gornji Milanovac on July 30, 1997. This website is project for my Web programming course. I don't own any of the photos on this website. All rights belong to their rightful owners.
+                </p>
+                <p id="spaced">
+                    I am student in the High School of Vocational Studies for Information and
+                    Communication Technologies, the direction of Internet technology.
+                    Index number 38/17.
+                </p>
+            </div>
+        </div>
+        <div class="modal-col">
+            <div id="myImage">
+                <img src="images/me.jpg" alt="Myself" title="Marko Gačanović" />
+            </div>
+        </div>
+    </div>
+    <!--END OF AUTHOR MODAL-->
+
+    <a href="#" id="back-to-top">
+        <i class="fas fa-angle-double-up fa-4x"></i>
+    </a>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    
+    <script src="js/lightbox.js"></script>
+
+    <script src="js/jquery_script.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

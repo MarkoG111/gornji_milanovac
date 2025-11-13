@@ -1,0 +1,30 @@
+[
+    {
+        "classOne": "footer__item",
+        "href": "https://www.facebook.com/",
+        "target": "",
+        "classTwo": "footer__link",
+        "icon": "fab fa-facebook"
+    },
+    {
+        "classOne": "footer__item",
+        "href": "https://www.twitter.com/",
+        "target": "",
+        "classTwo": "footer__link",
+        "icon": "fab fa-twitter"
+    },
+    {
+        "classOne": "footer__item",
+        "href": "rss.xml",
+        "target": "_blank",
+        "classTwo": "footer__link",
+        "icon": "fas fa-rss"
+    },
+    {
+        "classOne": "footer__item",
+        "href": "sitemap.xml",
+        "target": "_blank",
+        "classTwo": "footer__link",
+        "icon": "fas fa-sitemap"
+    }
+]

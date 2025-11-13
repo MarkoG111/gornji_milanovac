@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Milan Obrenovic",
+        "yearOfBirth": 1770,
+        "yearOfDeath": 1810,
+        "title": "Commander, duke and adviser"
+    },
+    {
+        "name": "Draga Obrenovic",
+        "yearOfBirth": 1866,
+        "yearOfDeath": 1903,
+        "title": "Serbian queen"
+    },
+    {
+        "name": "Bozidar Terzic",
+        "yearOfBirth": 1867,
+        "yearOfDeath": 1939,
+        "title": "Armygeneral, military minister"
+    },
+    {
+        "name": "Momcilo Nastasijevic",
+        "yearOfBirth": 1894,
+        "yearOfDeath": 1938,
+        "title": "Writer"
+    },
+    {
+        "name": "Dragisa Vasic",
+        "yearOfBirth": 1885,
+        "yearOfDeath": 1945,
+        "title": "Writer, lawyer and politician"
+    },
+    {
+        "name": "Vladimir Lunjevica",
+        "yearOfBirth": 1872,
+        "yearOfDeath": 1909,
+        "title": "Writer"
+    },
+    {
+        "name": "Milorad Draskovic",
+        "yearOfBirth": 1873,
+        "yearOfDeath": 1921,
+        "title": "Lawyer and politician"
+    },
+    {
+        "name": "Mihailo Dragicevic",
+        "yearOfBirth": 1872,
+        "yearOfDeath": 1927,
+        "title": "Businessman, banker"
+    }
+]

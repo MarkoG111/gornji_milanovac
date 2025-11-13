@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "image": {
+            "src": "images/Hotels/IG_small.jpeg",
+            "alt": "IG hotel"
+        },
+        "heading": "IG",
+        "rating": 5,
+        "price": 15
+    },
+    {
+        "id": 2,
+        "image": {
+            "src": "images/Hotels/Donna_small.jpg",
+            "alt": "Donna hotel"
+        },
+        "heading": "Donna",
+        "rating": 4,
+        "price": 9
+    },
+    {
+        "id": 3,
+        "image": {
+            "src": "images/Hotels/Mali_Raj_small.jpg",
+            "alt": "House Mali Raj"
+        },
+        "heading": "Mali Raj",
+        "rating": 3,
+        "price": 6
+    },
+    {
+        "id": 4,
+        "image": {
+            "src": "images/Hotels/Hotel_Metalac_small.jpg",
+            "alt": "Hotel Metalac"
+        },
+        "heading": "Hotel",
+        "rating": 2,
+        "price": 5
+    },
+    {
+        "id": 5,
+        "image": {
+            "src": "images/Hotels/Vila_Brdo_Mira_small.jpg",
+            "alt": "Vila Brdo Mira"
+        },
+        "heading": "Vila Brdo Mira",
+        "rating": 3,
+        "price": 8
+    },
+    {
+        "id": 6,
+        "image": {
+            "src": "images/Hotels/Neda_small.jpg",
+            "alt": "Hotel Neda"
+        },
+        "heading": "Neda",
+        "rating": 5,
+        "price": 13
+    }
+]

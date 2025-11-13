@@ -1,0 +1,30 @@
+[
+    {
+        "stats": {
+            "number": 42.731,
+            "text": "Population"
+        },
+        "icon": "fa-users"
+    },
+    {
+        "stats": {
+            "number": 7.768,
+            "text": "Homes"
+        },
+        "icon": "fa-home"
+    },
+    {
+        "stats": {
+            "number": "310m",
+            "text": "Elevation"
+        },
+        "icon": "fa-chart-area"
+    },
+    {
+        "stats": {
+            "number": "836 km2",
+            "text": "Surface"
+        },
+        "icon": "fa-globe"
+    }
+]

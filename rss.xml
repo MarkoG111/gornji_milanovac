@@ -1,0 +1,23 @@
+<rss version="2.0">
+    <channel>
+        <title>News about township Gornji Milanovac</title>
+        <link>http://gornjimilanovac.000webhostapp/index.html</link>
+        <description>All latest news in our township</description>
+        
+        <item>
+            <title>Our latest news</title>
+            <link>https://gornjimilanovac.000webhostapp.com/#section-news</link>
+            <description>Read all about economy, culture, sport etc. in our headings</description>
+        </item>
+        <item>
+            <title>We have cheapest lodging for night</title>
+            <link>https://gornjimilanovac.000webhostapp.com/#section-lodging</link>
+            <description>Follow us to get cheapest price for night</description>
+        </item>
+        <item>
+            <title>Answering your question immediately</title>
+            <link>https://gornjimilanovac.000webhostapp.com/#section-book</link>
+            <description>Ask anything, know everything</description>
+        </item>
+    </channel>
+</rss>
