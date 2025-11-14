@@ -22,6 +22,8 @@ The website is fully dynamic, loading most of its content from JSON files (lodgi
 [![jQuery](https://img.shields.io/badge/jQuery-AJAX-blue.svg?style=for-the-badge&logo=jquery)](https://jquery.com/)
 ![jQuery UI](https://img.shields.io/badge/jQuery%20UI-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
 
+🔗 Live Demo https://gacho-dev.rs/gornji-milanovac
+
 
 ---
 
